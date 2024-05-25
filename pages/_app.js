@@ -56,15 +56,6 @@ const MyApp = ({ Component, pageProps }) => {
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio_sdk4.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/load.js"></script>
       <link href="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio.css" rel="stylesheet" type="text/css"/>
-      {/* <Script type="text/javascript" src="jiaran/TweenLite.js"></Script>
-      <Script type="text/javascript" src="jiaran/live2dcubismcore.min.js"></Script>
-      <Script type="text/javascript" src="jiaran/pixi.min.js"></Script>
-      <Script type="text/javascript" src="jiaran/cubism4.min.js"></Script>
-      <Script type="text/javascript" src="jiaran/pio.js"></Script>
-      <Script type="text/javascript" src="jiaran/pio_sdk4.js"></Script>
-      <Script type="text/javascript" src="jiaran/load.js"></Script>
-      <link href="jiaran/pio.css" rel="stylesheet" type="text/css"/> */}
-      {/* <script src="jiaran/text.js"></script> */}
     <GlobalContextProvider {...pageProps}>
       <GLayout {...pageProps}>
         <GlobalHead {...pageProps} />
