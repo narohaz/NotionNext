@@ -13,6 +13,8 @@ import { useRouter } from 'next/router'
 import { useCallback, useMemo } from 'react'
 import { getQueryParam } from '../lib/utils'
 
+import '@/pages/jiaran'
+
 // 各种扩展插件 这个要阻塞引入
 import BLOG from '@/blog.config'
 import ExternalPlugins from '@/components/ExternalPlugins'
@@ -48,14 +50,22 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <div>
-      <script src="https://cdn.jsdelivr.net/npm/greensock@1.20.2/dist/TweenLite.js"></script>
+      {/* <script src="https://cdn.jsdelivr.net/npm/greensock@1.20.2/dist/TweenLite.js"></script>
       <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/pixi.js@5.3.6/dist/pixi.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.3.1/dist/cubism4.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio_sdk4.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/load.js"></script>
-      <link href="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio.css" rel="stylesheet" type="text/css"/>
+      <link href="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio.css" rel="stylesheet" type="text/css"/> */}
+      <script src="jiaran/TweenLite.js"></script>
+      <script src="jiaran/live2dcubismcore.min.js"></script>
+      <script src="jiaran/pixi.min.js"></script>
+      <script src="jiaran/cubism4.min.js"></script>
+      <script src="jiaran/pio.js"></script>
+      <script src="jiaran/pio_sdk4.js"></script>
+      <script src="jiaran/load.js"></script>
+      <link href="jiaran/pio.css" rel="stylesheet" type="text/css"/>
     <GlobalContextProvider {...pageProps}>
       <GLayout {...pageProps}>
         <GlobalHead {...pageProps} />
