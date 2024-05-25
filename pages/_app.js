@@ -66,7 +66,7 @@ const MyApp = ({ Component, pageProps }) => {
       <Script type="text/javascript" src="jiaran/pio_sdk4.js"></Script>
       <Script type="text/javascript" src="jiaran/load.js"></Script>
       <link href="jiaran/pio.css" rel="stylesheet" type="text/css"/> */}
-      <Script type="text/javascript" src="jiaran/text.js"></Script>
+      {/* <Script type="text/javascript" src="jiaran/text.js"></Script> */}
     <GlobalContextProvider {...pageProps}>
       <GLayout {...pageProps}>
         <GlobalHead {...pageProps} />
