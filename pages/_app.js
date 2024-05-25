@@ -50,7 +50,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <div>
-      {/* <script src="https://cdn.jsdelivr.net/npm/greensock@1.20.2/dist/TweenLite.js"></script>
+      {/* {/* <script src="https://cdn.jsdelivr.net/npm/greensock@1.20.2/dist/TweenLite.js"></script> */}
       <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/pixi.js@5.3.6/dist/pixi.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.3.1/dist/cubism4.min.js"></script>
@@ -58,7 +58,7 @@ const MyApp = ({ Component, pageProps }) => {
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio_sdk4.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/load.js"></script>
       <link href="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio.css" rel="stylesheet" type="text/css"/> */}
-      <Script type="text/javascript" src="/jiaran/TweenLite.js"></Script>
+      {/* <Script type="text/javascript" src="/jiaran/TweenLite.js"></Script> */}
       <Script type="text/javascript" src="/jiaran/live2dcubismcore.min.js"></Script>
       <Script type="text/javascript" src="/jiaran/pixi.min.js"></Script>
       <Script type="text/javascript" src="/jiaran/cubism4.min.js"></Script>
