@@ -13,8 +13,6 @@ import { useRouter } from 'next/router'
 import { useCallback, useMemo } from 'react'
 import { getQueryParam } from '../lib/utils'
 
-import Script from "next/script";
-
 // 各种扩展插件 这个要阻塞引入
 import BLOG from '@/blog.config'
 import ExternalPlugins from '@/components/ExternalPlugins'
