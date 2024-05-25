@@ -58,13 +58,13 @@ const MyApp = ({ Component, pageProps }) => {
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio_sdk4.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/load.js"></script>
       <link href="https://cdn.jsdelivr.net/gh/journey-ad/blog-img@76ba2b3/live2d/lib/pio.css" rel="stylesheet" type="text/css"/> */}
-      <script src="jiaran/TweenLite.js"></script>
-      <script src="jiaran/live2dcubismcore.min.js"></script>
-      <script src="jiaran/pixi.min.js"></script>
-      <script src="jiaran/cubism4.min.js"></script>
-      <script src="jiaran/pio.js"></script>
-      <script src="jiaran/pio_sdk4.js"></script>
-      <script src="jiaran/load.js"></script>
+      <script type="text/javascript" src="jiaran/TweenLite.js"></script>
+      <script type="text/javascript" src="jiaran/live2dcubismcore.min.js"></script>
+      <script type="text/javascript" src="jiaran/pixi.min.js"></script>
+      <script type="text/javascript" src="jiaran/cubism4.min.js"></script>
+      <script type="text/javascript" src="jiaran/pio.js"></script>
+      <script type="text/javascript" src="jiaran/pio_sdk4.js"></script>
+      <script type="text/javascript" src="jiaran/load.js"></script>
       <link href="jiaran/pio.css" rel="stylesheet" type="text/css"/>
     <GlobalContextProvider {...pageProps}>
       <GLayout {...pageProps}>
