@@ -60,7 +60,6 @@ const MyApp = ({ Component, pageProps }) => {
       </GLayout>
       <ExternalPlugins {...pageProps} />
     </GlobalContextProvider>
-    </div>
   )
 }
 
